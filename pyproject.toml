@@ -22,3 +22,12 @@ dependencies = [
     "streamlit>=1.49.1",
     "yfinance>=0.2.65",
 ]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 100
+select = ["E","F","I","UP"]
+ignore = ["E501"]
