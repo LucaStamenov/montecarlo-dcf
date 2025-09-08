@@ -1,0 +1,12 @@
+streamlit
+numpy
+pandas
+scipy
+numba
+pydantic
+pyyaml
+matplotlib
+plotly
+yfinance
+requests
+jinja2
